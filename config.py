@@ -10,19 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6735160001:AAG8bXviCh0B0xCIcocEvCi4lB2vbLMUlOg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7445415339:AAFh72ocK3Wefe2NxCJpwSG2NTpHG5qZU3I")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "9576963"))
+APP_ID = int(os.environ.get("APP_ID", "28883073"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "5111bfe8bddacdb9eb92f8e7522613ea")
+API_HASH = os.environ.get("API_HASH", "58d729bb2c1dbbef5b8b5d8da406f2f4")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002143673108"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001996081592"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6303569936"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7252362743"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -33,13 +33,13 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "63902c081394a267da7cd0a6d1b08ad1017ea4c2")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 36000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HOWTOVERIFYNONVEGMASALATOKEN/3")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_hentai/15")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002106708572"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002091359004"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6303569936)
+ADMINS.append(7252362743)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
