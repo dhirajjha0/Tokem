@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7445415339:AAFh72ocK3Wefe2NxCJpwSG2NTpHG5qZU3I")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28883073"))
+APP_ID = int(os.environ.get("APP_ID", "24466877"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "58d729bb2c1dbbef5b8b5d8da406f2f4")
+API_HASH = os.environ.get("API_HASH", "403596c01ecce435211d06eda69e9ad6")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001996081592"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7252362743"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5857939104"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -39,9 +39,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_hentai/15")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002006076422"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002038338139"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(7252362743)
+ADMINS.append(5857939104)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
