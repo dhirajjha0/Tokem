@@ -1,9 +1,19 @@
-pyrogram
+git+https://github.com/youesky/pyrogram
+# --- For-Bot-Working --------- #
+pyrofork
 TgCrypto
 pyromod
+# --- For-Database ------------ #
 pymongo
+motor
+umongo
 dnspython
-aiohttp
+marshmallow
+# --- For-Web-Response ------- #
+pytz
+requests
+bs4
 shortzy
-
-humanize
+aiohttp
+aiofiles
+asyncio
