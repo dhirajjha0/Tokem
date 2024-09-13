@@ -9,7 +9,7 @@ import string
 import time
 
 import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = -1002317451096
+pyrogram.utils.MIN_CHANNEL_ID = -1002411602144
 from pyrogram import Client, filters, __version__
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
